@@ -16,8 +16,11 @@
 
   background:black;
   background:rgba(0,0,0,0.8);
-
-;
+}
+.v-card > *:last-child:not(.v-btn):not(.v-chip) {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-size: 30px !important;
 }
 
 .v-card:not(.v-sheet--tile):not(.v-card--shaped) {
